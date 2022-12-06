@@ -1,0 +1,26 @@
+.odd {
+    background-color: rgb(255, 192, 203);
+}
+
+.one, .five {
+    font-size: 24px;
+}
+
+#two, #four {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#two{
+    font-size: 48px;
+    color: rgb(0, 0, 255);
+}
+
+.three{
+    font-size: 36px;    
+}
+
+#four{
+    background-color: rgb(105, 218, 105);
+    font-size: 36px;
+    font-weight: bold;
+}
