@@ -60,9 +60,16 @@ button.continue {
   color: white;
 }
 
-.icon, .close-button {
+.icon {
   flex-shrink: 0;
+  margin: 20px 0px 20px 20px; 
 }
+
+.close-button {
+  flex-shrink: 0;
+  margin: 0px;
+}
+
 
 .header-close{
   /* flex-direction: row; */
@@ -73,11 +80,13 @@ button.continue {
 .vertical {
   display: flex;
   flex-flow: column;
+  margin: 20px;
 }
 
 .buttons {
   display: flex;
   justify-content: flex-start;
+  margin-top: 20px;
 }
 
 button.cancel {
@@ -85,3 +94,11 @@ button.cancel {
   border: 1px solid #ddd;
   color: royalblue;
 }
+
+.header {font-weight: bold;font-size: large;}
+
+.text {
+    font-size: smaller;
+    margin-top: 10px;
+}
+
