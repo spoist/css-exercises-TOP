@@ -7,6 +7,29 @@ img {
   height: 100px;
 }
 
+.text {
+  text-align: center;
+  
+}
+
+.menu_images, .menu_with_text, .main_title {
+  display: flex;
+}
+
+.main_title{
+  align-items: center;
+  justify-content: center;
+}
+
+.menu_images{
+  margin: 20px 40px;
+}
+
+.menu_with_text {
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
 .title {
   font-size: 36px;
   font-weight: 900;
