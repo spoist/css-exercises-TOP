@@ -64,6 +64,22 @@ button.continue {
   flex-shrink: 0;
 }
 
+.header-close{
+  /* flex-direction: row; */
+  display: flex;
+  justify-content: space-between;
+}
+
+.vertical {
+  display: flex;
+  flex-flow: column;
+}
+
+.buttons {
+  display: flex;
+  justify-content: flex-start;
+}
+
 button.cancel {
   background: white;
   border: 1px solid #ddd;
