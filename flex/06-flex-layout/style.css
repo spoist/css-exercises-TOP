@@ -5,6 +5,9 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 img {
@@ -20,6 +23,7 @@ button {
 
 ul {
   list-style: none;
+  padding: 0px;
 }
 
 a {
@@ -40,4 +44,16 @@ input {
 
 .header, .footer {
   justify-content: space-between;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.left-links, .right-links {
+  margin: 8px 10px;
+  gap: 8px;
 }
