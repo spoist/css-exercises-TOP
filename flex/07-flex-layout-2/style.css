@@ -4,6 +4,7 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
 }
 
 .header {
@@ -20,14 +21,19 @@ body {
 }
 
 .sidebar {
-  width: 300px;
+  /* display: flex; */
+  flex: 0 0 200px;
   background: royalblue;
+  /* align-self: stretch; */
+  /* justify-content: stretch; */
+  /* align-items: stretch; */
 }
 
 .card-collection {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
+  margin: 30px;
 }
 
 .card {
@@ -40,4 +46,8 @@ body {
 .main-area {
   display: flex;
   flex-direction: row;
+  flex: 1 0 auto;
+  /* margin: 0; */
+  /* align-items: stretch; */
+  /* justify-content: stretch; */
 }
