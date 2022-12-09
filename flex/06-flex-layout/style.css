@@ -15,10 +15,12 @@ img {
 }
 
 button {
-  font-family: Roboto, sans-serif;
+  font-family: fangsong, Roboto, sans-serif;
   border: none;
   border-radius: 8px;
   background: #eee;
+  font-weight: bold;
+  padding: 10px 15px;
 }
 
 ul {
@@ -28,6 +30,9 @@ ul {
 
 a {
   text-decoration: none;
+  font-family: inherit ,fangsong, monospace;
+  color: #646464;
+  font-weight: bold;
 }
 
 input {
@@ -46,6 +51,10 @@ input {
   justify-content: space-between;
 }
 
+.footer {
+  background-color: #e2e2e2
+}
+
 .content {
   display: flex;
   flex-direction: column;
@@ -55,5 +64,5 @@ input {
 
 .left-links, .right-links {
   margin: 8px 10px;
-  gap: 8px;
+  gap: 15px;
 }
