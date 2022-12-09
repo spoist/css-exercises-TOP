@@ -16,14 +16,16 @@ a {
 }
 
 .header {
-  /* height: 72px; */
   background: darkmagenta;
   color: white;
   text-align: left;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-basis: 72px;
 }
 
 .footer {
-  /* height: 72px; */
   background: #eee;
   color: darkmagenta;
   display: flex;
@@ -33,12 +35,8 @@ a {
 }
 
 .sidebar {
-  /* display: flex; */
-  flex: 0 0 200px;
+  flex: 0 0 300px;
   background: royalblue;
-  /* align-self: stretch; */
-  /* justify-content: stretch; */
-  /* align-items: stretch; */
 }
 
 .card-collection {
@@ -59,7 +57,4 @@ a {
   display: flex;
   flex-direction: row;
   flex: 1 0 auto;
-  /* margin: 0; */
-  /* align-items: stretch; */
-  /* justify-content: stretch; */
 }
