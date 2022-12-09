@@ -18,10 +18,26 @@ button {
   background: #eee;
 }
 
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
 input {
   border: 1px solid #ddd;
   border-radius: 16px;
   padding: 8px 24px;
   width: 400px;
   margin-bottom: 16px;
+}
+
+.header, .footer, .left-links, .right-links{
+  display: flex;
+}
+
+.header, .footer {
+  justify-content: space-between;
 }
