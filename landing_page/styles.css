@@ -1,0 +1,20 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+li {
+    color: #f9faf8;
+    font-size: 24px;
+}
+
+.header {
+    display: flex;
+    flex: 0 0 50px;
+    background-color: #1F2937;
+    justify-content: space-between;    
+}
+
+.header-menu {
+    margin: 0px 20px;
+}
