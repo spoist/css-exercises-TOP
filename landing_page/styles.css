@@ -11,6 +11,14 @@ li {
     font-weight: bold;
 }
 
+h1 {
+    font-size: 48px;
+    font-weight: 800;
+    color: #f9faf8;
+    margin: 0px 0px 10px;
+    font-family: sans-serif;
+}
+
 .header {
     display: flex;
     flex: 0 0 50px;
@@ -43,4 +51,128 @@ li a {
     text-decoration: none;
     font-family: sans-serif;
     font-weight: 100;
+    font-size: 18px;
+    padding: 10px;
+}
+
+.first-section {
+    display: flex;
+    flex-direction: row;
+    background-color: #1F2937;
+    padding: 40px;
+    gap: 30px;
+}
+
+.first-section-left, .first-section-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.sign-up-blue {
+    margin-top: 10px;
+    background-color: #3882f6;
+    color: #f9faf8;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 10px;
+}
+
+.first-section-right{
+    flex-basis: 600px;
+    background-color: grey;
+}
+
+.second-section {
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    font-weight: 900;
+    font-family: sans-serif;
+    color: #1F2937;
+    margin: 20px;
+}
+
+.third-section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 35px;
+    align-items: center;
+    margin: 30px;
+}
+
+.image-with-subtext {
+    display: flex;
+    flex-direction: column;
+    width: 180px;
+}
+
+.image-with-subtext > img {
+    padding: 5px;
+    border: #3882f6 5px solid;
+    border-radius: 5px;
+}
+
+.image-with-subtext > div {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.fifth-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #e5e7eb;
+    padding: 40px 100px;
+    font-size: 36px;
+    font-family: sans-serif;
+    font-weight: 200;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.signature {
+    display: flex;
+    align-self: flex-end;
+    font-size: 28px;
+    font-family: sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.sixth-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin: 80px;
+    background-color: #3882f6;
+    border-radius: 10px;
+    padding: 40px;
+    font-family: sans-serif;
+    color: #f9faf8;
+    font-size: 16px;    
+}
+
+.six-left {
+    display: flex;
+    flex-direction: column;
+}
+
+.call-to-action {
+    margin: 5px;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.sign-up-white {
+    color: #f9faf8;
+    background-color: #3882f6;
+    border: #f9faf8 2px solid;
+    border-radius: 5px;
+    padding: 4px 25px;
 }
